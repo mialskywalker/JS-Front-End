@@ -13,9 +13,7 @@ function wordsTracker(input) {
                             return b.count - a.count;
                         }).forEach(word => console.log(`${word.name} - ${word.count}`));
     
-
 }
-
 
 wordsTracker([
     'this sentence',
